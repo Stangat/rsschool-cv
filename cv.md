@@ -4,6 +4,7 @@
 **Phone:** +375 29 1513581  
 **E-mail:** stangat12@gmail.com   
 **Telegram:** @stangat  
+**GitHub:** [Stangat](https://github.com/Stangat)
 ***
 ### **About myself:**
 I gratuated from "Francisk Skorina Gomel State University" as an electronics engineer back in 2005. The specialization of my faculty was medical electronics, so it was no surprise that I found my job at one of the biggest medical state institutions called "Republican Scientific and Practical Center for Radiation Medicine and Human Ecology" as an engineer maintaining and repairing medical equipment.
