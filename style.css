@@ -3,6 +3,13 @@
   margin: 0;
 }
 
+:root {
+  --orange: #f37202;
+  --gray: #808080;
+  --white: #ffffff;
+  --dark-blue: #1d263a;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -10,12 +17,19 @@ html {
 body {
   font-family: Garamond, serif;
   font-size: 18px;
-  background-color: gray;
+  background-color: var(--gray);
 }
 
 h1 {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 50px;
+}
+
+h3 {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--orange);
 }
 
 .container {
@@ -25,7 +39,7 @@ h1 {
   max-width: 1440px;
   height: 200px;
   margin: 0 auto;
-  background-color: rgb(29, 38, 58);
+  background-color: var(--dark-blue);
 }
 
 .nav-list {
@@ -38,16 +52,17 @@ h1 {
   padding: 0 20px;
   line-height: 50px;
   font-size: 16px;
-  color: #f3892d;
+  color: var(--orange);
   text-transform: uppercase;
   text-decoration: none;
 }
 
 .header-name {
   text-align: center;
-  color: #f3892d;
+  color: var(--orange);
 }
 
 .header-name span {
-  color: white;
+  color: var(--white);
 }
+
