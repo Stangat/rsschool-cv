@@ -31,15 +31,19 @@ body {
 
 .section-title {
   width: fit-content;
+  margin: 25px;
+  padding: 10px 45px;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 2rem;
   font-weight: 800;
+  letter-spacing: 5px;
   color: var(--orange);
   background-color: var(--dark-blue);
 }
 
 .header-container {
   display: flex;
+  flex: wrap;
   flex-direction: column;
   justify-content: center;
   max-width: 1440px;
@@ -80,16 +84,18 @@ body {
   background-color: var(--white);
 }
 
+.section span {
+  color: var(--white);
+}
+
 .section-left-column {
-  width: 75%;
+  width: 70%;
+  padding: 25px 10px 25px 25px;
 }
 
 .section-right-column {
-  width: 25%;
-}
-
-.section {
-  padding: 25px;
+  width: 30%;
+  padding: 25px 25px 25px 10px;
 }
 
 .footer-container {
@@ -104,9 +110,11 @@ body {
 }
 
 .photo-portrait {
+  float: left;
+  padding: 2px;
+  margin: 10px;
   border: 5px solid var(--dark-blue);
   border-radius: 50%;
-  float: left;
 }
 
 #summary {
@@ -123,4 +131,3 @@ p span {
   font-size: 2rem;
   font-weight: 600;
 }
-
