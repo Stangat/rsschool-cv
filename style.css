@@ -16,7 +16,7 @@ html {
 
 body {
   min-height: 100vh;
-  font-family: Garamond, serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 25px;
   color: var(--dark-blue);
   background-color: var(--gray);
@@ -24,7 +24,6 @@ body {
 }
 
 .header-name {
-  font-family: Helvetica, Arial, sans-serif;
   font-size: 65px;
   font-weight: 800;
 }
@@ -95,7 +94,7 @@ body {
 
 .section-right-column {
   width: 30%;
-  padding: 25px 25px 25px 10px;
+  padding: 25px 25px 25px 50px;
 }
 
 .footer-container {
@@ -127,7 +126,21 @@ body {
   margin-bottom: 18px;
 }
 
-p span {
-  font-size: 2rem;
-  font-weight: 600;
+.contacts-list {
+  list-style: none;
+}
+
+.contacts-item {
+  display: flex;
+  padding: 10px;
+}
+
+.contacts-list img {
+  margin-right: 15px;
+  filter: invert(14%) sepia(44%) saturate(523%) hue-rotate(181deg)
+    brightness(90%) contrast(96%);
+}
+
+.contacts-item:first-child p {
+  font-size: larger;
 }
