@@ -33,7 +33,7 @@ body {
   color: var(--orange);
 }
 
-.container {
+.header-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
