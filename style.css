@@ -30,10 +30,12 @@ body {
 }
 
 .section-title {
+  width: fit-content;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 2rem;
   font-weight: 800;
   color: var(--orange);
+  background-color: var(--dark-blue);
 }
 
 .header-container {
@@ -86,6 +88,10 @@ body {
   width: 25%;
 }
 
+.section {
+  padding: 25px;
+}
+
 .footer-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -117,3 +123,4 @@ p span {
   font-size: 2rem;
   font-weight: 600;
 }
+
