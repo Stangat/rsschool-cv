@@ -78,3 +78,7 @@ body {
   margin: 0 auto;
   background-color: var(--dark-blue);
 }
+
+.footer-container img {
+  filter: invert(100%) sepia(99%) saturate(2%) hue-rotate(294deg) brightness(111%) contrast(100%);
+}
