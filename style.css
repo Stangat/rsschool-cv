@@ -247,7 +247,7 @@ body {
 }
 
 @media (max-width: 850px) {
-.contacts-item {
-  font-size: 22px;
-}
+  .contacts-item {
+    font-size: 22px;
+  }
 }
