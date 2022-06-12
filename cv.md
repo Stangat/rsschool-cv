@@ -1,7 +1,5 @@
 # Stanislau Hatsilau
 
-<img src ="cvphoto.jpg" width = "185" height = "277">
-
 ### **Contact information:**
 
 **Phone:** +375 29 1513581  
