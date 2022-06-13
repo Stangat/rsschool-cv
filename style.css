@@ -135,11 +135,11 @@ body {
   margin-bottom: 0;
 }
 
-#code p:first-of-type {
+.code-requirement {
   padding: 10px 25px 15px;
 }
 
-#code div {
+.code-container {
   margin: 0 25px 10px;
   min-width: 95%;
   padding: 15px;
@@ -147,7 +147,7 @@ body {
   color: var(--white);
 }
 
-#code pre {
+.code-container pre {
   overflow-x: auto;
   white-space: pre-wrap;
   word-wrap: break-word;
