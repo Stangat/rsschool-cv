@@ -241,6 +241,14 @@ body {
     width: 100%;
   }
 
+  .section-title {
+    margin: 5px 0;
+  }
+
+  .section-left-column {
+    border-right: none;
+  }
+
   .text-container,
   .photo-container {
     flex: 100%;
