@@ -237,13 +237,13 @@ body {
 }
 
 @media (max-width: 768px) {
-.header-container {
-  padding: 10px;
-}
+  .header-container {
+    padding: 10px;
+  }
 
-.header-name {
-  line-height: 1;
-}
+  .header-name {
+    line-height: 1;
+  }
 
   .nav-list {
     flex-direction: column;
