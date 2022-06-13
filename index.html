@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stanislau Hatsilau CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <h1 class="header-name">Stanislau <span>Hatsilau</span></h1>
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code example</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+            <li class="nav-item">
+              <a href="#english" class="nav-link">English</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-container">
+        <section class="section section-left-column" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <div class="summary-flex-wrapper">
+            <div class="photo-container">
+              <img
+                class="photo"
+                src="assets/img/cvphoto.jpg"
+                alt="Photo Portrait"
+                width="350"
+                height="277"
+              />
+            </div>
+            <div class="text-container">
+              <p>
+                I gratuated from "Francisk Skorina Gomel State University" as an
+                electronics engineer in 2005. The specialization of my faculty
+                was medical electronics, so it was no surprise that I found my
+                job at one of the biggest medical state institutions called
+                "Republican Scientific and Practical Center for Radiation
+                Medicine and Human Ecology" as an engineer maintaining and
+                repairing medical equipment.
+              </p>
+              <p>
+                Since that time I gradually and constantly evolved as a
+                specialist, building perfect relationships with my colleagues
+                what eventually made me senior engineer at my department.
+              </p>
+              <p>
+                I'm very curious and hardworking person and probably owing to
+                these qualities I always aspire for something new, and maybe
+                because of it I have tried programming recently. I was keen on
+                Frontend Web Development because I liked the visual side of it
+                and immediate result you get after trying something out.
+              </p>
+              <p>
+                I know how to manage my time and it really helps a lot in
+                learning process, besides there is a great amount of educational
+                information all around the internet. I hope that sooner or later
+                I become a really good front-end specialist.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="section section-right-column" id="contacts">
+          <h2 class="section-title"><span>Contacts</span></h2>
+          <ul class="contacts-list">
+            <li class="contacts-item">
+              <p>Phone:</p>
+              <p>+375 29 1513581</p>
+            </li>
+            <li class="contacts-item">
+              <p>Email:</p>
+              <p>stangat12@gmail.com</p>
+            </li>
+            <li class="contacts-item">
+              <p>Discord:</p>
+              <p>StanGat#6643</p>
+            </li>
+            <li class="contacts-item">
+              <p>Github:</p>
+              <p>@stangat</p>
+            </li>
+          </ul>
+        </section>
+        <section class="section section-left-column" id="code">
+          <h2 class="section-title">Code example</h2>
+          <p class="code-requirement">
+            Consider an array/list of sheep where some sheep may be missing from
+            their place. We need a function that counts the number of sheep
+            present in the array (true means present).
+          </p>
+          <div class="code-container">
+            <pre><code>
+                function countSheeps(arrayOfSheep) {
+                  let sum = 0;
+                  for (i = 0; i &lt; arrayOfSheep.length; i++) {
+                    if (arrayOfSheep[i]) {
+                      sum += 1;
+                    } 
+                  } 
+                    return sum;			
+                }</code></pre>
+          </div>
+        </section>
+        <section class="section section-right-column" id="skills">
+          <h2 class="section-title"><span>Skills</span></h2>
+          <ul class="skills-list">
+            <li class="skills-list-item">HTML5, CSS3</li>
+            <li class="skills-list-item">JavaScript Basics</li>
+            <li class="skills-list-item">VS Code</li>
+            <li class="skills-list-item">Git basics, Github</li>
+          </ul>
+        </section>
+        <section class="section section-left-column" id="education">
+          <h2 class="section-title">Education</h2>
+          <ul class="education-list">
+            <li class="education-list-item">
+              <b>University education:</b> Graduate of Francisk Skorina Gomel
+              State University(Belarus), electronics engineer
+            </li>
+            <li class="education-list-item">
+              <b>Courses:</b>
+              <ul class="education-list courses-list">
+                <li class="courses-list-item">
+                  HTML and CSS Tutorials (w3schools)
+                </li>
+                <li class="courses-list-item">
+                  JavaScript Tutorial (w3schools)
+                </li>
+                <li class="courses-list-item">
+                  JavaScript Basics (learn.javascript.ru)
+                </li>
+                <li class="courses-list-item">Introduction to Git (Hexlet)</li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+        <section class="section section-right-column" id="english">
+          <h2 class="section-title"><span>English</span></h2>
+          <p>Upper-intermidiate (B2)/Advanced (C1)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer-container">
+        <a class="my-github" href="https://github.com/Stangat">
+          <img
+            class="github-icon"
+            src="assets/svg/github-brands.svg"
+            alt="Github Icon"
+            width="40"
+            height="40"
+          />
+          <p>Stangat</p>
+        </a>
+        <p>©2022</p>
+        <a class="rsschool-image" href="https://rs.school/js/">
+          <img
+            src="assets/svg/rs_school_js.svg"
+            alt="Rsschool Icon"
+            width="100"
+            height="50"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
