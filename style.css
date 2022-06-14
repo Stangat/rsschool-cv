@@ -151,8 +151,6 @@ body {
 
 .code-container pre {
   overflow-x: auto;
-  white-space: pre-wrap;
-  word-wrap: break-word;
 }
 
 .education-list {
@@ -270,7 +268,7 @@ body {
   }
 
   .code-container {
-    font-size: 17px;
+    font-size: 15px;
     margin: 0 0 10px;
   }
 
